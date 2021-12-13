@@ -1,0 +1,34 @@
+
+    .container_devChallenge {
+        display: flex;
+        position: absolute;
+        top: 1.5em;
+        left: 14.5em;
+    }
+    
+    .container_devChallenge h1 {
+        color: var(--cor-secundaria);
+        font-size: 1.6em;
+        font-weight: 700;
+    }
+
+@media screen and (max-width: 1920px)
+{
+    .container_devChallenge {
+        left: 24.5em;
+        top: 5.5em;
+    }
+}
+
+
+@media screen and (max-width: 414px)
+{
+    .container_devChallenge {
+        left: 1.5em;
+        top: 1.5em;
+    }
+
+    .container_devChallenge h1 {
+        font-size: 1.6em;
+    }
+}

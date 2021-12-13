@@ -1,0 +1,89 @@
+
+    .container_textoPrincipal {
+        background-image: url(../team.jpg);
+        background-position-y: 1.7em;
+        background-position-x: 21.5em;
+        background-size: 36em;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        left: 18.5em;
+        position: absolute;
+        top: 13.5em;
+        width: 100%;
+    }
+
+    .container_textoPrincipal h2 {
+        color: var(--cor-primaria);
+        font-size: 4em;
+        font-weight: 700;
+    }
+
+    .container_textoPrincipal p {
+        color: var(--cor-primaria);
+        padding-top: 1em;
+        font-size: 1.65em;
+    }
+
+    .container_textoPrincipal button {
+        background-color: var(--cor-secundaria);
+        border: none;
+        border-radius: 10px;
+        color: #FFF;
+        font-family: var(--fonte-principal);
+        font-weight: 700;
+        font-size: x-large;
+        height: 2.67em;
+        margin-top: 1.5em;
+        width: 11em;
+    }
+
+@media screen and (max-width: 1920px)
+{
+    .container_textoPrincipal {
+        left: 29.5em;
+        top: 17.5em;
+    }
+
+    .container_textoPrincipal img {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 414px)
+{
+    .container_textoPrincipal {
+        background-image: none;
+        left: 0.5em;
+        top: 7.5em;
+    }
+
+    .container_textoPrincipal img {
+        width: 20em;
+        margin-left: 2.5em;
+    }
+
+    .container_textoPrincipal h2 {
+        font-size: 2em;
+        text-align: center;
+        margin-right: 1.2em;
+        margin-top: 1.2em;
+    }
+
+    .container_textoPrincipal p {
+        font-size: 1.2em;
+        text-align: center;
+        margin-right: 1.2em;
+    }
+
+    .container_textoPrincipal button {
+        font-size: large;
+        margin-left: 6em;
+        height: 2.5em;
+        width: 9.5em;
+    }
+
+    
+}

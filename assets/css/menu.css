@@ -1,0 +1,45 @@
+
+    .container_menu {
+        position: absolute;
+        top: 1.5em;
+        left: 60em;
+    }
+    
+    .container_menu ul li{
+        color: #000;
+        display: inline;
+        font-size: 1.2em;
+        font-weight: 400;
+        padding-right: 1em;
+    } 
+
+
+
+@media screen and (max-width: 1920px)
+{
+    .container_menu {
+        left: 72em;
+        top: 5.5em;
+    }
+}
+
+@media screen and (max-width: 414px)
+{
+    .container_menu {
+        background-image: url(../menu.png);
+        background-repeat: no-repeat;
+        background-size: 2em;
+        background-position-y: 0.19em;
+        height: 20%;
+        left: 23em;
+        top: 1.5em;
+        width: 50%;
+    }
+
+    .container_menu ul li {
+        display: none;
+        
+    }
+
+    
+}
